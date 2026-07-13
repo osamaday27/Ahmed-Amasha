@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="أحمد أسامة عماشة - مهندس برمجيات ومطور Full Stack. تطوير مواقع، متاجر، أنظمة إدارة، وتطبيقات ويب حديثة.">
+  <title>أحمد أسامة عماشة | مهندس برمجيات ومطور Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="header" id="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">Ahmed <span>Amasha</span></a>
+      <nav class="nav" id="nav">
+        <a href="#home" class="active">الرئيسية</a>
+        <a href="#about">من أنا</a>
+        <a href="#services">الخدمات</a>
+        <a href="#skills">المهارات</a>
+        <a href="#work">المشاريع</a>
+        <a href="#pricing">الأسعار</a>
+        <a href="#contact">تواصل معي</a>
+      </nav>
+      <a class="nav-cta" href="#contact">ابدأ مشروعك <i class="bi bi-arrow-up-left"></i></a>
+      <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة"><i class="bi bi-list"></i></button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-bg-grid"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="status"><span></span> متاح لاستقبال مشاريع جديدة</div>
+          <p class="eyebrow">مهندس برمجيات · مطور Full Stack</p>
+          <h1>أبني منتجات رقمية<br><em>تخدم هدف عملك.</em></h1>
+          <p class="lead">أنا أحمد أسامة عماشة، أصمم وأطوّر مواقع ومتاجر وأنظمة إدارة وتطبيقات ويب — بأداء سريع، تجربة
+            استخدام واضحة، وبنية تقنية جاهزة للنمو مع مشروعك.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">ابدأ مشروعك الآن <i class="bi bi-arrow-left"></i></a>
+            <a class="btn ghost" href="#work">شاهد أعمالي</a>
+          </div>
+          <div class="mini-stats">
+            <div><strong>6+</strong><span>مشاريع منفّذة</span></div>
+            <div><strong>4</strong><span>خدمات متكاملة</span></div>
+            <div><strong>100%</strong><span>تسليم واضح ومتابعة</span></div>
+          </div>
+        </div>
+
+        <div class="hero-art reveal">
+          <div class="portrait-shell">
+            <div class="portrait-bg"></div>
+            <img src="1.png" alt="أحمد أسامة عماشة"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder"><i class="bi bi-person-fill"></i><span>ضع صورتك هنا<br><b>1.png</b></span>
+            </div>
+          </div>
+          <div class="badge badge-one"><i class="bi bi-patch-check-fill"></i>
+            <div><small>جودة الكود</small><b>موثوقة وقابلة للتوسع</b></div>
+          </div>
+          <div class="badge badge-two"><i class="bi bi-lightning-charge-fill"></i>
+            <div><small>سرعة التنفيذ</small><b>من الفكرة حتى الإطلاق</b></div>
+          </div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+        </div>
+      </div>
+
+      <div class="tech-marquee" aria-label="التقنيات المستخدمة">
+        <div class="track">
+          <span>HTML</span><i>✦</i><span>CSS</span><i>✦</i><span>JavaScript</span><i>✦</i>
+          <span>Vue.js</span><i>✦</i><span>Nuxt.js</span><i>✦</i><span>PHP</span><i>✦</i>
+          <span>Laravel</span><i>✦</i><span>Livewire</span><i>✦</i><span>MySQL</span><i>✦</i><span>REST
+            API</span><i>✦</i>
+          <span>HTML</span><i>✦</i><span>CSS</span><i>✦</i><span>JavaScript</span><i>✦</i>
+          <span>Vue.js</span><i>✦</i><span>Nuxt.js</span><i>✦</i><span>PHP</span><i>✦</i>
+          <span>Laravel</span><i>✦</i><span>Livewire</span><i>✦</i><span>MySQL</span><i>✦</i><span>REST
+            API</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="section-label reveal"><span>01</span> من أنا</div>
+        <div class="about-content reveal">
+          <h2>أحوّل الأفكار إلى <span>تجارب رقمية موثوقة.</span></h2>
+          <div class="about-columns">
+            <p>أجمع بين احترافية تطوير الواجهات الأمامية وقوة بناء الأنظمة الخلفية، لأخرج بمنتج متكامل من البداية
+              للنهاية — من واجهة المستخدم إلى قاعدة البيانات ومنطق العمل.</p>
+            <p>منهجي واضح وبسيط: أفهم مشكلتك أولًا، أقترح الحل المناسب لها، أبني بكود نظيف وسهل الصيانة، وأسلّمك منتجًا
+              يعمل فعليًا ويستمتع المستخدم بالتعامل معه.</p>
+          </div>
+          <div class="principles">
+            <div><i class="bi bi-gem"></i>
+              <h3>الجودة أولًا</h3>
+              <p>كود نظيف، منظّم، وسهل التطوير عليه لاحقًا.</p>
+            </div>
+            <div><i class="bi bi-speedometer2"></i>
+              <h3>الأداء والسرعة</h3>
+              <p>تجربة سريعة على جميع الأجهزة، من أول ثانية تحميل.</p>
+            </div>
+            <div><i class="bi bi-diagram-3"></i>
+              <h3>قابلية التوسع</h3>
+              <p>بنية تقنية مصممة لتكبر مع نمو مشروعك، لا تعيقه.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="container">
+        <div class="work-intro reveal">
+          <div class="section-label light"><span>02</span> المشاريع</div>
+          <h2>مشاريع متنوعة،<br><em>وحلول مصممة حسب كل فكرة.</em></h2>
+          <p>أعمل على أنواع مختلفة من المنتجات الرقمية باستخدام التقنية الأنسب لكل مشروع، دون الارتباط بلغة برمجة أو
+            إطار عمل واحد.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal" data-project="snefro-clothing-store" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/snefro-clothing-store/cover.png" alt="Snefro Clothing Store" loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-shop"></i><span>Snefro Store</span></div>
+              <span class="project-index">10</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">متجر ملابس</span>
+              <h3>Snefro Store</h3>
+              <p>متجر بيع بواجهة حديثة لعرض المنتجات والتصنيفات وتقديم تجربة تسوق سهلة على مختلف الأجهزة.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="tawqit-education-redesign" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/tawqit-education-redesign/cover.png" alt="Tawqit Education Redesign"
+                loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-vector-pen"></i><span>Tawqit Education Redesign</span>
+              </div>
+              <span class="project-index">11</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">إعادة تصميم تعليمي</span>
+              <h3>Tawqit Education Redesign</h3>
+              <p>إعادة تصميم تجربة منصة تعليمية بهدف تحسين الوضوح والتنقل وعرض المحتوى وتجربة المستخدم.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="theqa" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/theqa/cover.png" alt="Theqa" loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-grid"></i><span>Theqa</span></div>
+              <span class="project-index">12</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">منصة خدمات</span>
+              <h3>Theqa</h3>
+              <p>منصة رقمية تربط المستخدم بالخدمات من خلال تجربة منظمة وواجهات تساعد على الوصول للخدمة المطلوبة بسهولة.
+              </p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="create-portfolio-blog-website" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/create-portfolio-blog-website/cover.png" alt="Create Portfolio Blog Website"
+                loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-person-workspace"></i><span>Create Portfolio Blog
+                  Website</span></div>
+              <span class="project-index">01</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">موقع شخصي ومدونة</span>
+              <h3>Create Portfolio Website</h3>
+              <p>منصة احترافية لعرض الهوية الشخصية والأعمال والمقالات والخبرات في تجربة واحدة منظمة.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="snefro-factory-ecommerce" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/snefro-factory-ecommerce/cover.png" alt="Snefro Factory Ecommerce"
+                loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-bag"></i><span>Snefro Factory Ecommerce</span></div>
+              <span class="project-index">02</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">متجر إلكتروني · مصنع</span>
+              <h3>Snefro Factory Ecommerce</h3>
+              <p>متجر إلكتروني متكامل لعرض منتجات المصنع وإدارة تجربة التسوق والطلبات بشكل واضح وقابل للتوسع.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="factory-his" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/factory-his/cover.png" alt="Factory HIS" loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-buildings"></i><span>Factory HIS</span></div>
+              <span class="project-index">03</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">نظام إدارة</span>
+              <h3>Factory System</h3>
+              <p>نظام إداري مخصص لتنظيم العمليات والبيانات وسير العمل داخل المؤسسة من خلال واجهات عملية ولوحات متابعة.
+              </p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="hospital-system" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/hospital-system/cover.png" alt="Hospital System" loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-hospital"></i><span>Hospital System</span></div>
+              <span class="project-index">04</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">نظام مستشفى</span>
+              <h3>Hospital System</h3>
+              <p>نظام متكامل لإدارة عمليات المستشفى والبيانات والخدمات الطبية والإدارية ضمن تجربة موحدة.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="appnabra-education-platform" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/appnabra-education-platform/cover.png" alt="Appnabra Education Platform"
+                loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-mortarboard"></i><span>Nabra Education Platform</span>
+              </div>
+              <span class="project-index">05</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">منصة تعليمية</span>
+              <h3>Nabra Education Platform</h3>
+              <p>منصة تعليمية رقمية لتنظيم المحتوى والدورات وتجربة المتعلم وإدارة العملية التعليمية.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="nile-noir-hotel" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/nile-noir-hotel/cover.png" alt="Nile Noir Hotel" loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-building"></i><span>Nile Noir Hotel</span></div>
+              <span class="project-index">08</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">فندق · ضيافة</span>
+              <h3>Nile Noir Hotel</h3>
+              <p>تجربة رقمية لفندق تجمع بين العرض البصري للخدمات والغرف وتسهيل وصول العميل إلى المعلومات والحجز.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="neo-gym-system" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/neo-gym-system/cover.png" alt="Neo Gym System" loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-activity"></i><span> Gym System</span></div>
+              <span class="project-index">06</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">نظام إدارة جيم</span>
+              <h3>Gym System</h3>
+              <p>نظام لإدارة الاشتراكات والعملاء والحضور والخدمات والعمليات اليومية داخل صالات الألعاب الرياضية.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project="neo-pos-system" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/neo-pos-system/cover.png" alt="Neo POS System" loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-receipt"></i><span>POS System</span></div>
+              <span class="project-index">07</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">نظام نقاط بيع</span>
+              <h3> POS System</h3>
+              <p>نظام نقاط بيع وإدارة مبيعات يساعد على تنظيم المنتجات والفواتير والحركة اليومية والتقارير.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="pro-pre-idea-crm" tabindex="0" role="button">
+            <div class="project-cover">
+              <img src="assets/projects/pro-pre-idea-crm/cover.png" alt="Pro-Pre Idea CRM" loading="lazy">
+              <div class="project-cover-fallback"><i class="bi bi-people"></i><span>CRM</span></div>
+              <span class="project-index">09</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">CRM</span>
+              <h3>CRM</h3>
+              <p>نظام لإدارة علاقات العملاء ومتابعة البيانات والفرص والمهام وسير العمل التجاري في مكان واحد.</p>
+              <span class="project-link">عرض تفاصيل المشروع <i class="bi bi-arrow-up-left"></i></span>
+            </div>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-top reveal">
+          <div>
+            <p class="eyebrow">ما الذي يمكنني تقديمه لك</p>
+            <h2>خدمات مبنية حول <span>هدف عملك الحقيقي.</span></h2>
+          </div>
+          <p>من الفكرة الأولى وحتى الإطلاق، أساعدك على بناء منتج رقمي محترف يمكن الوثوق به والاعتماد عليه.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card featured reveal">
+            <div class="service-num">01</div>
+            <div class="service-icon"><i class="bi bi-window-stack"></i></div>
+            <h3>تطوير تطبيقات الويب</h3>
+            <p>لوحات تحكم مخصصة، أنظمة إدارة، متاجر إلكترونية، ومنصات وتطبيقات أعمال متكاملة.</p>
+            <ul>
+              <li>واجهات متجاوبة مع كل الأجهزة</li>
+              <li>نظام خلفي آمن ومنظم</li>
+              <li>تصميم قاعدة بيانات محترف</li>
+              <li>منتج جاهز للنشر والاستخدام</li>
+            </ul>
+            <a href="#contact">ناقش مشروع الويب <i class="bi bi-arrow-up-left"></i></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-num">02</div>
+            <div class="service-icon"><i class="bi bi-phone"></i></div>
+            <h3>حلول تطبيقات الموبايل</h3>
+            <p>أنظمة خلفية وواجهات ربط قوية لتطبيقات الموبايل، ببنية قابلة للتوسع وحماية بيانات كاملة.</p>
+            <ul>
+              <li>ربط التطبيق بقاعدة البيانات</li>
+              <li>نظام تسجيل دخول وصلاحيات آمن</li>
+              <li>لوحة تحكم لإدارة المحتوى</li>
+              <li>دعم فني بعد التسليم</li>
+            </ul>
+            <a href="#contact">ابدأ تطبيقك <i class="bi bi-arrow-up-left"></i></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-num">03</div>
+            <div class="service-icon"><i class="bi bi-mortarboard"></i></div>
+            <h3>الدورات والتدريب التقني</h3>
+            <p>دورات وتوجيه عملي في تطوير الويب، بمشاريع حقيقية وخطوات واضحة تناسب المبتدئين والمستمرين.</p>
+            <ul>
+              <li>تأسيس قوي من الصفر</li>
+              <li>مشاريع تطبيقية أثناء التعلم</li>
+              <li>متابعة ومراجعة فردية</li>
+              <li>إجابة أسئلتك بشكل مباشر</li>
+            </ul>
+            <a href="#contact">اطلب تدريبًا <i class="bi bi-arrow-up-left"></i></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-num">04</div>
+            <div class="service-icon"><i class="bi bi-bezier2"></i></div>
+            <h3>تصميمات الجرافيك</h3>
+            <p>تصميمات بصرية واضحة ومتناسقة تعكس هوية علامتك التجارية بشكل عصري ومحترف.</p>
+            <ul>
+              <li>هوية بصرية متكاملة</li>
+              <li>تصميمات سوشيال ميديا</li>
+              <li>مواد تسويقية جاهزة للنشر</li>
+              <li>تسليم بصيغ مناسبة للاستخدام</li>
+            </ul>
+            <a href="#contact">اطلب تصميمًا <i class="bi bi-arrow-up-left"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="skills-head reveal">
+          <div class="section-label"><span>03</span> التقنيات</div>
+          <h2>الأدوات التي أستخدمها لتحويل <span>الأفكار إلى منتجات فعلية.</span></h2>
+        </div>
+        <div class="stack-grid">
+          <div class="stack-card reveal">
+            <div class="stack-title"><span>الواجهة الأمامية</span><i class="bi bi-layout-text-window-reverse"></i></div>
+            <div class="pills">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Vue.js</span><span>Nuxt.js</span><span>تصميم
+                متجاوب</span></div>
+          </div>
+          <div class="stack-card reveal">
+            <div class="stack-title"><span>الواجهة الخلفية</span><i class="bi bi-server"></i></div>
+            <div class="pills"><span>PHP</span><span>Laravel</span><span>Livewire</span><span>MySQL</span><span>ربط
+                قواعد البيانات</span><span>حماية البيانات</span></div>
+          </div>
+          <div class="stack-card reveal">
+            <div class="stack-title"><span>أدوات العمل</span><i class="bi bi-git"></i></div>
+            <div class="pills"><span>Git</span><span>GitHub</span><span>تنظيم المشروع</span><span>حل
+                المشكلات</span><span>عمل منهجي</span><span>متابعة مستمرة</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section process">
+      <div class="container">
+        <div class="section-top reveal">
+          <div>
+            <p class="eyebrow">خطوات عمل بسيطة وواضحة</p>
+            <h2>من فكرتك إلى <span>منتج مكتمل.</span></h2>
+          </div>
+        </div>
+        <div class="process-grid">
+          <div class="process-step reveal"><span>01</span><i class="bi bi-chat-square-text"></i>
+            <h3>فهم المشروع</h3>
+            <p>نتحدث عن هدفك ومستخدميك والمشكلة التي تريد حلها بالتفصيل.</p>
+          </div>
+          <div class="process-step reveal"><span>02</span><i class="bi bi-bounding-box"></i>
+            <h3>التخطيط</h3>
+            <p>أحدد لك نطاق العمل، الخطوات، والوقت المتوقع للتنفيذ بوضوح.</p>
+          </div>
+          <div class="process-step reveal"><span>03</span><i class="bi bi-code-slash"></i>
+            <h3>التنفيذ</h3>
+            <p>بناء المنتج تدريجيًا مع تحديثات منتظمة توضح لك تقدم العمل.</p>
+          </div>
+          <div class="process-step reveal"><span>04</span><i class="bi bi-rocket-takeoff"></i>
+            <h3>التسليم والدعم</h3>
+            <p>مراجعة أخيرة، تسليم كامل، ودعم بعد الإطلاق لضمان راحتك.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section pricing" id="pricing">
+      <div class="container">
+        <div class="pricing-head reveal">
+          <p class="eyebrow">أسعار بداية واضحة</p>
+          <h2>اختر نقطة البداية المناسبة لمشروعك.</h2>
+          <p>كل مشروع له طبيعته الخاصة. الأسعار هنا تقدير مبدئي لمساعدتك على التخطيط، والسعر النهائي يعتمد على تفاصيل
+            ونطاق مشروعك بالكامل.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <div class="price-label">البداية</div>
+            <h3>موقع تعريفي محترف</h3>
+            <p>مناسب للأفراد والشركات الصغيرة التي تحتاج حضورًا رقميًا قويًا وسريعًا.</p>
+            <div class="price"><small>يبدأ من</small><strong>$250</strong></div>
+            <ul>
+              <li><i class="bi bi-check2"></i> حتى 5 صفحات</li>
+              <li><i class="bi bi-check2"></i> تصميم متجاوب لكل الشاشات</li>
+              <li><i class="bi bi-check2"></i> نموذج تواصل مباشر</li>
+              <li><i class="bi bi-check2"></i> تهيئة أساسية لمحركات البحث</li>
+              <li><i class="bi bi-check2"></i> دعم لمدة 7 أيام بعد التسليم</li>
+            </ul>
+            <a href="#contact" class="price-btn">اطلب عرض سعر</a>
+          </article>
+
+          <article class="price-card popular reveal">
+            <div class="popular-tag">الأكثر طلبًا</div>
+            <div class="price-label">الأعمال</div>
+            <h3>نظام أو تطبيق ويب مخصص</h3>
+            <p>لشركات تحتاج لوحة تحكم وسير عمل ووظائف خاصة بطبيعة نشاطها.</p>
+            <div class="price"><small>يبدأ من</small><strong>$750</strong></div>
+            <ul>
+              <li><i class="bi bi-check2"></i> واجهة ووظائف مصمّمة خصيصًا لك</li>
+              <li><i class="bi bi-check2"></i> نظام خلفي متين بلارافيل</li>
+              <li><i class="bi bi-check2"></i> قاعدة بيانات منظمة وآمنة</li>
+              <li><i class="bi bi-check2"></i> لوحة تحكم لإدارة المحتوى</li>
+              <li><i class="bi bi-check2"></i> دعم لمدة 30 يومًا بعد التسليم</li>
+            </ul>
+            <a href="#contact" class="price-btn">ابدأ مشروعك</a>
+          </article>
+
+          <article class="price-card reveal">
+            <div class="price-label">متقدم</div>
+            <h3>نظام خلفي لتطبيقات الموبايل</h3>
+            <p>لتطبيقات الموبايل والمنتجات التي تحتاج نظامًا خلفيًا آمنًا وقابلًا للتوسع.</p>
+            <div class="price"><small>يبدأ من</small><strong>$600</strong></div>
+            <ul>
+              <li><i class="bi bi-check2"></i> بناء نظام ربط بين التطبيق والخادم</li>
+              <li><i class="bi bi-check2"></i> نظام تسجيل دخول وصلاحيات</li>
+              <li><i class="bi bi-check2"></i> تصميم قاعدة بيانات محترف</li>
+              <li><i class="bi bi-check2"></i> توثيق واضح لطريقة الربط</li>
+              <li><i class="bi bi-check2"></i> دعم لمدة 21 يومًا بعد التسليم</li>
+            </ul>
+            <a href="#contact" class="price-btn">ناقش المتطلبات</a>
+          </article>
+        </div>
+
+        <div class="addons reveal">
+          <span>متاح أيضًا</span>
+          <div><b>تدريب فردي</b><small>يبدأ من 15$ / الساعة</small></div>
+          <div><b>تصميمات جرافيك</b><small>يبدأ من 20$ / التصميم</small></div>
+          <div><b>صيانة ودعم شهري</b><small>خطة مخصصة حسب المشروع</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section faq">
+      <div class="container faq-grid">
+        <div class="faq-intro reveal">
+          <p class="eyebrow">أسئلة شائعة</p>
+          <h2>أسئلة قبل أن <span>نعمل معًا؟</span></h2>
+          <p>إذا لم تجد سؤالك هنا، أرسل لي رسالة مباشرة وسأكون سعيدًا بمناقشة تفاصيل مشروعك.</p>
+        </div>
+        <div class="accordion">
+          <div class="faq-item reveal">
+            <button>كم يستغرق تنفيذ المشروع؟<i class="bi bi-plus-lg"></i></button>
+            <div class="answer">
+              <p>الموقع التعريفي يستغرق من أسبوع إلى 3 أسابيع، بينما الأنظمة والتطبيقات المخصصة تستغرق عادةً من 4 إلى 12
+                أسبوعًا حسب حجم المشروع وتفاصيله.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button>هل يمكنك العمل على مشروع قائم بالفعل؟<i class="bi bi-plus-lg"></i></button>
+            <div class="answer">
+              <p>نعم، يمكنني مراجعة مشروعك الحالي، إضافة خصائص جديدة، حل المشكلات الموجودة، أو تحسين الأداء العام.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button>هل تقدّم دعمًا بعد التسليم؟<i class="bi bi-plus-lg"></i></button>
+            <div class="answer">
+              <p>نعم، كل باقة تشمل فترة دعم مجانية، ويمكن الاتفاق على خطة صيانة مستمرة للمشاريع الأكبر.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button>هل يمكن تسليم المشروع على مراحل؟<i class="bi bi-plus-lg"></i></button>
+            <div class="answer">
+              <p>بالتأكيد، المشاريع الكبيرة يمكن تقسيمها لمراحل واضحة مع مراجعة وتسليم في كل مرحلة، بما يناسبك.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="container contact-box reveal">
+        <div class="contact-copy">
+          <p class="eyebrow">لديك مشروع في ذهنك؟</p>
+          <h2>لنبنِ شيئًا <span>يستحق أن يُتذكر.</span></h2>
+          <p>أخبرني عن فكرتك أو نشاطك أو المشكلة التي تواجهها، وسأساعدك على تحديد أفضل طريقة للبدء بها فعليًا.</p>
+          <a class="email-link" href="mailto:osamaday27@gmail.com">osamaday27@gmail.com <i
+              class="bi bi-arrow-up-left"></i></a>
+          <a class="whatsapp-link" href="https://wa.me/201090718857" target="_blank" rel="noopener"><i
+              class="bi bi-whatsapp"></i> تواصل عبر واتساب مباشرة</a>
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/ahmed-amasha-349a41405" target="_blank" rel="noopener"><i
+                class="bi bi-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/osamaday27" target="_blank" rel="noopener"><i class="bi bi-github"></i>
+              GitHub</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="field-row">
+            <label>الاسم<input type="text" placeholder="اسمك" required></label>
+            <label>البريد الإلكتروني<input type="email" placeholder="you@example.com" required></label>
+          </div>
+          <label>الخدمة المطلوبة
+            <select required>
+              <option value="">اختر الخدمة</option>
+              <option>تطوير موقع أو تطبيق ويب</option>
+              <option>نظام خلفي لتطبيق موبايل</option>
+              <option>دورة أو تدريب تقني</option>
+              <option>تصميمات جرافيك</option>
+            </select>
+          </label>
+          <label>تفاصيل المشروع<textarea rows="5" placeholder="أخبرني باختصار عن مشروعك..." required></textarea></label>
+          <button class="btn primary" type="submit">إرسال طلب المشروع <i class="bi bi-arrow-left"></i></button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-top">
+      <a class="brand" href="#home">Ahmed <span>Amasha</span></a>
+      <p>مهندس برمجيات ومطور Full Stack<br>أبني منتجات مفيدة باستخدام تقنيات حديثة وكود منظم.</p>
+      <div class="socials">
+        <a href="https://github.com/osamaday27" target="_blank" rel="noopener" aria-label="GitHub"><i
+            class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/ahmed-amasha-349a41405" target="_blank" rel="noopener"
+          aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/201090718857" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+            class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 أحمد أسامة عماشة. جميع الحقوق محفوظة.</span>
+      <a href="#home">العودة للأعلى <i class="bi bi-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/201090718857" target="_blank" rel="noopener" aria-label="واتساب">
+    <span>تواصل معي</span><i class="bi bi-whatsapp"></i>
+  </a>
+
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-close-modal></div>
+    <div class="project-modal-panel">
+      <button class="project-modal-close" type="button" data-close-modal aria-label="إغلاق"><i
+          class="bi bi-x-lg"></i></button>
+      <div id="projectModalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
