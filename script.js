@@ -68,7 +68,7 @@ function openProject(slug) {
   const shots = Array.from({ length: 8 }, (_, index) => `
     <div class="project-shot">
       <div class="project-shot-fallback"><i class="bi bi-image"></i></div>
-      <img src="assets/projects/${slug}/${index + 1}.png" alt="${project.title} - صورة ${index + 1}" loading="lazy" onerror="this.style.display='none'">
+      <img src="assets/projects/${slug}/${index + 1}.PNG" alt="${project.title} - صورة ${index + 1}" loading="lazy" onerror="this.style.display='none'">
     </div>
   `).join('');
   projectModalContent.innerHTML = `
