@@ -541,43 +541,95 @@
     </section>
 
     <!-- ============ CONTACT ============ -->
-    <section class="contact" id="contact">
-      <div class="container contact-box reveal">
-        <div class="contact-copy">
-          <p class="eyebrow">لديك مشروع في ذهنك؟</p>
-          <h2>لنبنِ شيئًا <span>يستحق أن يُتذكر.</span></h2>
-          <p>أخبرني عن فكرتك أو نشاطك أو المشكلة التي تواجهها، وسأساعدك على تحديد أفضل طريقة للبدء بها فعليًا.</p>
-          <a class="email-link" href="mailto:osamaday27@gmail.com">osamaday27@gmail.com <i
-              class="bi bi-arrow-up-left"></i></a>
-          <a class="whatsapp-link" href="https://wa.me/201090718857" target="_blank" rel="noopener"><i
-              class="bi bi-whatsapp"></i> تواصل عبر واتساب مباشرة</a>
-          <div class="contact-socials">
-            <a href="https://www.linkedin.com/in/ahmed-amasha-349a41405" target="_blank" rel="noopener"><i
-                class="bi bi-linkedin"></i> LinkedIn</a>
-            <a href="https://github.com/osamaday27" target="_blank" rel="noopener"><i class="bi bi-github"></i>
-              GitHub</a>
-          </div>
+<section class="contact" id="contact">
+    <div class="container contact-box reveal">
+        
+        <!-- ===== LEFT: شعار واتساب كبير ===== -->
+        <div class="whatsapp-hero">
+            <div class="whatsapp-icon-wrapper">
+                <i class="bi bi-whatsapp"></i>
+                <div class="pulse-ring"></div>
+                <div class="pulse-ring delay-1"></div>
+                <div class="pulse-ring delay-2"></div>
+            </div>
+            <div class="whatsapp-badge">
+                <span>تواصل فوري</span>
+                <span class="badge-dot"></span>
+            </div>
         </div>
+
+        <!-- ===== RIGHT: المحتوى والنص ===== -->
+        <div class="contact-copy">
+            <p class="eyebrow">
+                <i class="bi bi-chat-dots" style="margin-left:6px;"></i> 
+                لديك مشروع في ذهنك؟
+            </p>
+            <h2>لنبنِ شيئًا <span>يستحق أن يُتذكر.</span></h2>
+            <p class="description">
+                أخبرني عن فكرتك أو نشاطك أو المشكلة التي تواجهها، وسأساعدك على تحديد أفضل طريقة للبدء بها فعليًا.
+            </p>
+
+            <!-- ===== WHATSAPP - وسيلة التواصل الأساسية ===== -->
+            <a class="whatsapp-link" href="https://wa.me/201090718857" target="_blank" rel="noopener">
+                <i class="bi bi-whatsapp"></i> 
+                <span>تواصل عبر واتساب مباشرة</span>
+                <i class="bi bi-arrow-up-right"></i>
+            </a>
+
+            <!-- ===== EMAIL ===== -->
+            <a class="email-link" href="mailto:osamaday27@gmail.com">
+                <i class="bi bi-envelope"></i> 
+                osamaday27@gmail.com 
+                <i class="bi bi-arrow-up-left"></i>
+            </a>
+
+            <!-- ===== SOCIALS ===== -->
+            <div class="contact-socials">
+                <a href="https://www.linkedin.com/in/ahmed-amasha-349a41405" target="_blank" rel="noopener">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/osamaday27" target="_blank" rel="noopener">
+                    <i class="bi bi-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- ============================================================ -->
+        <!--                  الفورم مُعطَّل - التواصل عبر واتساب            -->
+        <!-- ============================================================ -->
+        <!-- 
+            ═══════════════════════════════════════════════════════════════
+            تم تعطيل الفورم لأن قناة التواصل الأساسية والرسمية هي 
+            واتساب (WhatsApp) للرد السريع والمباشر.
+            
+            لإعادة تفعيل الفورم: قم بإزالة التعليق عن الكود أدناه
+            مع تغيير display: none إلى display: flex في الـ CSS
+            ═══════════════════════════════════════════════════════════════
+        -->
+
+        <!-- 
         <form class="contact-form" id="contactForm">
-          <div class="field-row">
-            <label>الاسم<input type="text" placeholder="اسمك" required></label>
-            <label>البريد الإلكتروني<input type="email" placeholder="you@example.com" required></label>
-          </div>
-          <label>الخدمة المطلوبة
-            <select required>
-              <option value="">اختر الخدمة</option>
-              <option>تطوير موقع أو تطبيق ويب</option>
-              <option>نظام خلفي لتطبيق موبايل</option>
-              <option>دورة أو تدريب تقني</option>
-              <option>تصميمات جرافيك</option>
-            </select>
-          </label>
-          <label>تفاصيل المشروع<textarea rows="5" placeholder="أخبرني باختصار عن مشروعك..." required></textarea></label>
-          <button class="btn primary" type="submit">إرسال طلب المشروع <i class="bi bi-arrow-left"></i></button>
-          <p class="form-note" id="formNote"></p>
+            <div class="field-row">
+                <label>الاسم<input type="text" placeholder="اسمك" required></label>
+                <label>البريد الإلكتروني<input type="email" placeholder="you@example.com" required></label>
+            </div>
+            <label>الخدمة المطلوبة
+                <select required>
+                    <option value="">اختر الخدمة</option>
+                    <option>تطوير موقع أو تطبيق ويب</option>
+                    <option>نظام خلفي لتطبيق موبايل</option>
+                    <option>دورة أو تدريب تقني</option>
+                    <option>تصميمات جرافيك</option>
+                </select>
+            </label>
+            <label>تفاصيل المشروع<textarea rows="5" placeholder="أخبرني باختصار عن مشروعك..." required></textarea></label>
+            <button class="btn primary" type="submit">إرسال طلب المشروع <i class="bi bi-arrow-left"></i></button>
+            <p class="form-note" id="formNote"></p>
         </form>
-      </div>
-    </section>
+        -->
+
+    </div>
+</section>
 
   </main>
 
